@@ -4,9 +4,10 @@ angular.module('video-player')
   controller: function() {
 
     this.videos = window.exampleVideoData;
+    //this.index = 0;
     this.current = window.exampleVideoData[0];
     //this.handleclick.bind(this);
-    this.handleclick =(index) => {
+    this.handleclick = (index) => {
       console.log(this);
       console.log(index);
       this.current = exampleVideoData[index];
